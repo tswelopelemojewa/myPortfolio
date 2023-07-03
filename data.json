@@ -1,7 +1,7 @@
 {
     "user" : {
         "fullName": "Mojewa Tswelopele",
-        "photo" : "images/tswelopele1.JPG"
+        "photo" : "/images/tswelopele1.JPG"
     },
 
     "skills": {
@@ -25,7 +25,7 @@
         "LinkedIn": "https://www.linkedin.com/in/tswelopele-mojewa/",
         "github" : "https://github.com/tswelopelemojewa/",
         "address" : "254 Fox Street Johannesburg",
-        "photo": "images/me.jpeg"
+        "photo": "/images/me.jpeg"
     },
     "city" : {
         "name" : "SILICON VALLEY",
