@@ -84,7 +84,7 @@
     "projects": [
         {   
             
-            "clip": "images/bootcamp-widgets.gif",
+            "clip": "/images/bootcamp-widgets.gif",
             "title": "Widgets for Bootcamp functions",
             "description": "Developed widgets for 4 of the bootcamp funtions we did earlier in the program. in this project a user interacts with the Javascript functions though the UI with the help of AlpineJS.",
             "technologies": "Html, CSS, JavaScript,AlpineJS, Bootstrap, Git and Github",
@@ -93,7 +93,7 @@
         },
         {   
             
-            "clip": "images/pizza-cart.gif",
+            "clip": "/images/pizza-cart.gif",
             "title": "Pizza Cart",
             "description": "Develpoed a Pizza Cart which a user can use to place an order, view the order in the cart and checkout. In this projects i was using Alpine JS to manipulate the HTML elements on the screen.",
             "technologies": "Html, CSS, JavaScript,AlpineJS, Bootstrap, Git and Github",
