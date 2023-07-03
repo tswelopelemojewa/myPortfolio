@@ -1,7 +1,7 @@
 {
     "user" : {
         "fullName": "Mojewa Tswelopele",
-        "photo" : "/images/tswelopele1.JPG"
+        "photo" : "images/tswelopele1.JPG"
     },
 
     "skills": {
@@ -25,7 +25,7 @@
         "LinkedIn": "https://www.linkedin.com/in/tswelopele-mojewa/",
         "github" : "https://github.com/tswelopelemojewa/",
         "address" : "254 Fox Street Johannesburg",
-        "photo": "/images/me.jpeg"
+        "photo": "images/me.jpeg"
     },
     "city" : {
         "name" : "SILICON VALLEY",
@@ -84,7 +84,7 @@
     "projects": [
         {   
             
-            "clip": "/gifs/bootcamp-widgets.gif",
+            "clip": "gifs/bootcamp-widgets.gif",
             "title": "Widgets for Bootcamp functions",
             "description": "Developed widgets for 4 of the bootcamp funtions we did earlier in the program. in this project a user interacts with the Javascript functions though the UI with the help of AlpineJS.",
             "technologies": "Html, CSS, JavaScript,AlpineJS, Bootstrap, Git and Github",
@@ -93,7 +93,7 @@
         },
         {   
             
-            "clip": "/gifs/pizza-cart.gif",
+            "clip": "gifs/pizza-cart.gif",
             "title": "Pizza Cart",
             "description": "Develpoed a Pizza Cart which a user can use to place an order, view the order in the cart and checkout. In this projects i was using Alpine JS to manipulate the HTML elements on the screen.",
             "technologies": "Html, CSS, JavaScript,AlpineJS, Bootstrap, Git and Github",
@@ -103,7 +103,7 @@
         
         {   
             
-            "clip": "/gifs/alpine-counter.gif",
+            "clip": "gifs/alpine-counter.gif",
             "title": "Counter Using AlpineJS framework",
             "description": "Developed a counter that increments and decrements using Alpine JS framework to manipulate the HTML elements",
             "technologies": "Html, CSS, JavaScript, Bootstrap",
@@ -112,7 +112,7 @@
         },
         {   
             
-            "clip": "/gifs/exploring_the_dom.gif",
+            "clip": "gifs/exploring_the_dom.gif",
             "title": "Introducing JavaScript in the Web Browser",
             "description": "Web Browsers use JavaScript as a programming language and allow you to extend the functionality of web pages. In this small project, I manipulate the HTML elements and the styling on the screen using Vanilla Javascript.",
             "technologies": "Html, CSS, JavaScript, Bootstrap, Git and Github",
@@ -120,7 +120,7 @@
             "time": "26 June 2023"
         },
         {   
-            "clip": "/gifs/responsive-webpages.gif",
+            "clip": "gifs/responsive-webpages.gif",
             "title": "Reponsive web pages with ViteJS & Handlebars",
             "description": "In this project, I was running handlebars with ViteJS, I created 2 responsive personal webpages using CSS frameworks: ie, Bootstrap and Materialize. it turns out that I prefer Bootstrap over Materialize. The webpages were populated by information stored in a JSON file",
             "technologies": "Html, CSS, JavaScript, Bootstrap, Materialize, Git, Github, ViteJS, and Handlebars",
@@ -128,7 +128,7 @@
             "time": "31 May 2023"
         },
         {   
-            "clip": "/gifs/bootcamp-test.gif",
+            "clip": "gifs/bootcamp-test.gif",
             "title": "Unit testing with MochaJS",
             "description": "Earlier in the CodeX program, we Wrote various function on a bootcamp. In this Small Project I was doing Unit Testing to validate the fucntions using MochaJS ans ChaiJS",
             "technologies": "Html, JavaScript, Git, Github, MochaJS and ChaiJS",
@@ -136,7 +136,7 @@
             "time": "31 May 2023"
         },
         {   
-            "clip": "/gifs/color-mixer.gif",
+            "clip": "gifs/color-mixer.gif",
             "title": "DOM - Color mixer",
             "description": "In this project, I display different colors depending on the CSS rgb() color combination. I use Javascript to manipulate the HTML and CSS of the webpage. Each Color displayed as a div shows it's curent value and the effect is visible on the div. The combination of the the 3 (RGB values) is displayed on the larger Div plus it's value",
             "technologies": "Html, CSS, JavaScript, Git, and Github",
@@ -145,7 +145,7 @@
         },
         {   
             
-            "clip": "/gifs/jscounter.gif",
+            "clip": "gifs/jscounter.gif",
             "title": "JavaScript counter ",
             "description": "This project is a counter, it makes use of setInterval method to increment the counter variable after every 0.5s. Using onclick events, the counter increments, pauses, resets and decrements depending on the button clicked. This project is supposed to be an upgrade to the previous color-mixer project. The text on screen turns green when the count value is greater than 1, turns red when the count value is less than 0 and remains black when count is reseted to 0.",
             "technologies": "Html, CSS, JavaScript, Git and Github",
@@ -154,7 +154,7 @@
         },
         
         {   
-            "clip": "/gifs/anime-gallery.gif",
+            "clip": "gifs/anime-gallery.gif",
             "title": "Anime gallery counter",
             "description": "In this project, I developed a simple webpage while learning the basic of HTML, CSS and JavsScript. It shows some characters from my favourite Anime, which i can click a like button to like and dislike and the page is responsive.",
             "technologies": "Html, CSS, JavaScript, Git, and Github",
@@ -162,7 +162,7 @@
             "time": "15 March 2022"
         },
         {   
-            "clip": "/gifs/login-page.gif",
+            "clip": "gifs/login-page.gif",
             "title": "Login Page",
             "description": "In this project, I followed a Youtube Tutorial while learning Html, CSS and a bit of JavaScript",
             "technologies": "Html, CSS, JavaScript, Git, and Github",
