@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+
+</head>
+
+<body style="background-image: url(/images/bg.jpg); background-size: cover; background-attachment: fixed;">
+
+    <main style="background-color: rgba(0, 0, 0, 0.8);">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand me-2" href="index.html">
+                    Tswelopele Mojewa
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+                    <!-- Left links -->
+
+                    <div class="d-flex align-items-center">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
+                                    role="button"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa"
+                                    role="button"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <br>
+        <br>
+
+        <div class="container text-center" style="color: white;">
+            <h3>Contact</h3><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="col-10 img-thumbnail" src="{{data.contact.photo}}" />
+                </div>
+                <div class="col-md-6">
+                    <p>If you wish to contact me for a proposal or collaboration you are welcome to contact me : </p>
+                    <span><i class="fas fa-envelope"></i> {{data.contact.email}}</span><br>
+                    <span><i class="fas fa-phone"></i>  {{data.contact.phone}}</span><br>
+                    <span><i class="fab fa-linkedin"></i><a href="{{data.contact.LinkedIn}}"> {{data.contact.LinkedIn}}</a></span><br>
+                    <span><i class="fab fa-github"></i><a href="{{data.contact.github}}"> {{data.contact.github}}</a></span><br>
+                    <span><i class="fas fa-location-dot"></i> {{data.contact.address}}</span>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+<br>
+        <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.8);">
+
+            <!-- Copyright -->
+            <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.8);">
+                © 2023 Copyright:
+                <a class="text-light" href="index.html">Mojewa Tswelopele</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </main>
+
+
+</body>
+
+</html>

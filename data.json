@@ -1,0 +1,174 @@
+{
+    "user" : {
+        "fullName": "Mojewa Tswelopele",
+        "photo" : "/images/tswelopele1.JPG"
+    },
+
+    "skills": {
+        "technical": [{"skill": "JavaScript","skill2": "ReactJS"},
+        {"skill": "HTML5", "skill2": "Django"},
+        {"skill": "CSS", "skill2": "GIT & Github"},
+        {"skill": "Python", "skill2": "C & C++"},
+        {"skill": "AlpineJS", "skill2": "Linux & Windows OS"},
+        {"skill": "Machine learning", "skill2": "Unit Testing"},
+        {"skill": "Data analysis", "skill2": "Bootstrap"}],
+
+        "soft" : [{"skill1": "Time Management", "skill2": "Problem Solving"},
+        {"skill1": "Agile Methodologies", "skill2": "Analytical thinking"},
+        {"skill1": "Excellent Commnication", "skill2": "collaborative and interpersonal skills"},
+        {"skill1": "Willing to learn","skill2": "Self-motivated"},
+        {"skill1": "team Work", "skill2": "Presentation"}]
+    },
+    "contact": {
+        "email": "tswelopelemojewa@gmail.com",
+        "phone" : "0790985214 | 0715366387",
+        "LinkedIn": "https://www.linkedin.com/in/tswelopele-mojewa/",
+        "github" : "https://github.com/tswelopelemojewa/",
+        "address" : "254 Fox Street Johannesburg",
+        "photo": "/images/me.jpeg"
+    },
+    "city" : {
+        "name" : "SILICON VALLEY",
+        "photo" : "/images/silicon_valley.jpg",
+        "description" : "Silicon Valley is known as the cratle of innivation, it is where most well known top know Tech companies Originated. Big names like Google, Facebook, Amazon, Apple, Netflix and more...all reside at Silicon Valley. Silicon Valley is a region in Northern California that serves as a global center for high technology and innovation. It is located in the southern part of the San Francisco Bay Area"
+    },
+    "foreignLanguage" : {
+        "language" : "Japanese",
+        "phrases" : [{
+            "englishPhrase" : "I wanna watch Anime in Sub mode, with no subtitles",
+            "foreignLanguage" : "データサイエンスは未来です..."
+        },
+        {
+            "englishPhrase" : "Web development, all day Everyday",
+            "foreignLanguage" : "Web 開発、一日中毎日"
+        },
+        {
+            "englishPhrase" : "Data Science is the future",
+            "foreignLanguage" : "データサイエンスは未来です"
+        }]
+    },
+    
+    "course": "BENG-TECH ELECTRICAL ENGINEERING",
+    "institution": "UNIVERSITY OF JOHANNESBURG",
+
+    "favouriteSubjects" : [
+        {
+            "name" : "Algorithms",
+            "badge": "best",
+            "description" : "The use of computer programming Language that makes use of the "
+        },
+        {
+            "name" : "Mathematics",
+            "description" : "Introduction and application of Engineering mathematics and calculus"
+        },
+        {
+            "name" : "Electronics",
+            "description" : "Building and developing electronic circuit, working with transistors and other eletronic components, with a Function generator to generate signals and displaying results of and Oscilloscope."
+        }
+        ,
+        {
+            "name" : "Mechatronics",
+            "description" : "Working with Arduino Uno and PLC along with sensors to automate Switches and relays"
+        },
+        {
+            "name" : "Waves and Signals",
+            "description" : "Working with electronic devices to study different signal like FM, AM and also workinng with PWM"
+        }
+        ,
+        {
+            "name" : "Sensors and Devices",
+            "description" : "Development of Electronic circuits that uses devices that senses"
+        }
+    ],
+    
+    "projects": [
+        {   
+            
+            "clip": "/gifs/bootcamp-widgets.gif",
+            "title": "Widgets for Bootcamp functions",
+            "description": "Developed widgets for 4 of the bootcamp funtions we did earlier in the program. in this project a user interacts with the Javascript functions though the UI with the help of AlpineJS.",
+            "technologies": "Html, CSS, JavaScript,AlpineJS, Bootstrap, Git and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/alpinejs-bootcamp-widgets/",
+            "time": "30 June 2023"
+        },
+        {   
+            
+            "clip": "/gifs/pizza-cart.gif",
+            "title": "Pizza Cart",
+            "description": "Develpoed a Pizza Cart which a user can use to place an order, view the order in the cart and checkout. In this projects i was using Alpine JS to manipulate the HTML elements on the screen.",
+            "technologies": "Html, CSS, JavaScript,AlpineJS, Bootstrap, Git and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/pizza-cart/",
+            "time": "28 June 2023"
+        },
+        
+        {   
+            
+            "clip": "/gifs/alpine-counter.gif",
+            "title": "Counter Using AlpineJS framework",
+            "description": "Developed a counter that increments and decrements using Alpine JS framework to manipulate the HTML elements",
+            "technologies": "Html, CSS, JavaScript, Bootstrap",
+            "siteLink": "https://tswelopelemojewa.github.io/apline-counter-widgets/",
+            "time": "26 June 2023"
+        },
+        {   
+            
+            "clip": "/gifs/exploring_the_dom.gif",
+            "title": "Introducing JavaScript in the Web Browser",
+            "description": "Web Browsers use JavaScript as a programming language and allow you to extend the functionality of web pages. In this small project, I manipulate the HTML elements and the styling on the screen using Vanilla Javascript.",
+            "technologies": "Html, CSS, JavaScript, Bootstrap, Git and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/exploring-js-dom/",
+            "time": "26 June 2023"
+        },
+        {   
+            "clip": "/gifs/responsive-webpages.gif",
+            "title": "Reponsive web pages with ViteJS & Handlebars",
+            "description": "In this project, I was running handlebars with ViteJS, I created 2 responsive personal webpages using CSS frameworks: ie, Bootstrap and Materialize. it turns out that I prefer Bootstrap over Materialize. The webpages were populated by information stored in a JSON file",
+            "technologies": "Html, CSS, JavaScript, Bootstrap, Materialize, Git, Github, ViteJS, and Handlebars",
+            "siteLink": "https://tswelopelemojewa.github.io/responsive_webpages/",
+            "time": "31 May 2023"
+        },
+        {   
+            "clip": "/gifs/bootcamp-test.gif",
+            "title": "Unit testing with MochaJS",
+            "description": "Earlier in the CodeX program, we Wrote various function on a bootcamp. In this Small Project I was doing Unit Testing to validate the fucntions using MochaJS ans ChaiJS",
+            "technologies": "Html, JavaScript, Git, Github, MochaJS and ChaiJS",
+            "siteLink": "https://tswelopelemojewa.github.io/bootcamp-test/",
+            "time": "31 May 2023"
+        },
+        {   
+            "clip": "/gifs/color-mixer.gif",
+            "title": "DOM - Color mixer",
+            "description": "In this project, I display different colors depending on the CSS rgb() color combination. I use Javascript to manipulate the HTML and CSS of the webpage. Each Color displayed as a div shows it's curent value and the effect is visible on the div. The combination of the the 3 (RGB values) is displayed on the larger Div plus it's value",
+            "technologies": "Html, CSS, JavaScript, Git, and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/dom-color-mixer/",
+            "time": "15 March 2023"
+        },
+        {   
+            
+            "clip": "/gifs/jscounter.gif",
+            "title": "JavaScript counter ",
+            "description": "This project is a counter, it makes use of setInterval method to increment the counter variable after every 0.5s. Using onclick events, the counter increments, pauses, resets and decrements depending on the button clicked. This project is supposed to be an upgrade to the previous color-mixer project. The text on screen turns green when the count value is greater than 1, turns red when the count value is less than 0 and remains black when count is reseted to 0.",
+            "technologies": "Html, CSS, JavaScript, Git and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/jsconter/",
+            "time": "15 March 2023"
+        },
+        
+        {   
+            "clip": "/gifs/anime-gallery.gif",
+            "title": "Anime gallery counter",
+            "description": "In this project, I developed a simple webpage while learning the basic of HTML, CSS and JavsScript. It shows some characters from my favourite Anime, which i can click a like button to like and dislike and the page is responsive.",
+            "technologies": "Html, CSS, JavaScript, Git, and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/animegallery/",
+            "time": "15 March 2022"
+        },
+        {   
+            "clip": "/gifs/login-page.gif",
+            "title": "Login Page",
+            "description": "In this project, I followed a Youtube Tutorial while learning Html, CSS and a bit of JavaScript",
+            "technologies": "Html, CSS, JavaScript, Git, and Github",
+            "siteLink": "https://tswelopelemojewa.github.io/loginPage/",
+            "time": "22 July 2022"
+        }
+
+    ]
+}

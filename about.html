@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mojewa Tswelopele</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body style="background-image: url(/images/table-mountain.jpeg); background-size: cover; background-attachment: fixed;">
+
+
+    <main class="container-fluid" style="background-color: rgba(0, 0, 0, 0.6)">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand me-2" href="index.html">
+                    Tswelopele Mojewa
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+                    <!-- Left links -->
+
+                    <div class="d-flex align-items-center">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
+                                    role="button"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa"
+                                    role="button"><i class="fab fa-github"></i></a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <br>
+
+
+        <div class="container">
+
+            <div Class="row" style="margin: auto;
+            padding: 0.5em;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.3);
+            background-image: url(/images/table-mountai.jpeg); background-size: cover">
+
+                <div class="col-md-7 text-center" style="text-align: center;
+                    /* justify-content: center; */
+                    /* margin: auto; display: flex; */
+                    color: black">
+                    <h1 class="text-center">{{data.user.fullName}}</h1>
+
+                    <div>
+                        <p>Hi I am Mojewa Tswelopele, I am a Software developer based in Johannesburg South Africa. I am
+                            proficient with Front end technologies and currently working on improving on the back end.
+                        </p>
+                        <p>I possess expertise in programming languages such as
+                            HTML, CSS, JavaScript, Python and have
+                            experience with various web
+                            development frameworks and
+                            tools such as bootstrap, AlpineJS,
+                            ReactJS, Nodejs, Git and GitHub.</p>
+                        <p>I have built a couple of small <a href="projects.html">projects</a> to showcase my abilities,
+                            skills and continuous improvement.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <figure>
+                        <img class="col-10 rounded-circle img-thumbnail text-center" src="{{data.user.photo}}" alt="my picture" />
+                    </figure>
+                </div>
+            </div>
+            
+            <hr style="color: white" />
+
+            <div class="row">
+
+                <h5 class="text-center" style="color: white">Technical Skills</h5>
+
+                <table class="table table-sm table-hover">
+                    <tbody style="color: white">
+
+
+                        {{#each data.skills.technical}}
+                        <tr class="text-center">
+                            <td>{{skill}}</td>
+                            <td>{{skill2}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <br>
+                <h5 class="text-center" style="color: white">Soft Skills</h5>
+
+                <table class="table table-sm table-hover">
+                    <tbody style="color: white">
+
+                        {{#each data.skills.soft}}
+                        <tr class="text-center">
+                            <td>{{skill1}}</td>
+                            <td>{{skill2}}</td>
+                        </tr>
+                        {{/each}}
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class=" text-center" style="margin: auto;
+            color: black;
+            padding: 1em;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.6);">
+                <hr />
+                <h1>{{data.course}}</h1>
+                <h3>{{data.institution}}</h3>
+                <hr />
+            </div><br>
+
+            <h2 class="text-center" style="color: white">Favourite Subjects</h2>
+
+            <div class="row  " style="margin: auto; background-color: rgba(0, 0, 0, 0.8); ">
+                {{#each data.favouriteSubjects}}
+                <div class=" grid col-md-4">
+                    <div class="card-body" style="color: white">
+                        <h5 class="card-title text-center" \>{{name}}</h5>
+                        <hr>
+                        <p class="card-text">{{description}}</p>
+                        <br>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+
+            <br>
+
+            <div class="row" style="color: white">
+                <h2 class="">{{data.city.name}}</h2>
+                <div class="col-md-4">
+                    <figure>
+                        <img class="col-12 rounded" id="silicon-valey-pic" src="{{data.city.photo}}"
+                        alt="silicon valley" />
+                    </figure>
+
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size: 18px">{{data.city.description}}</p>
+                </div>
+
+            </div>
+
+            <hr />
+
+            <div class="container" style="background-color: rgba(0, 0, 0, 0.9); padding: 1em">
+                <h2 style="color: white">{{data.foreignLanguage.language}}</h2>
+            </div>
+            <div>
+                <table class="table table-dark table-striped">
+
+                    <thead>
+                        <tr>
+                            <th>English Phrase</th>
+                            <th>Foreign Language Phrase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.foreignLanguage.phrases}}
+                        <tr>
+                            <td>{{englishPhrase}}</td>
+                            <td>{{foreignLanguage}}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </main>
+    <footer>
+        <div class="text-center" style="background-color: black; color: white">
+            <br>
+            <p>Mojewa Tswelopele</p>
+            <p>@2023</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+</body>
+
+</html>
