@@ -119,8 +119,9 @@
 
 
     <main>
+
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <!-- Container wrapper -->
             <div class="container">
                 <!-- Navbar brand -->
@@ -130,52 +131,53 @@
 
                 <!-- Toggle button -->
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
 
                 <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
                     <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- <div class=""> -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
+                                role="button"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa" role="button"><i
+                                    class="fab fa-github"></i></a>
+                        </li>
 
                     </ul>
-                    <!-- Left links -->
 
-                    <div class="d-flex align-items-center">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
-                                    role="button"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa"
-                                    role="button"><i class="fab fa-github"></i></a>
-                            </li>
-
-                        </ul>
-
-                    </div>
+                    <!-- </div> -->
                 </div>
                 <!-- Collapsible wrapper -->
             </div>
             <!-- Container wrapper -->
         </nav>
         <!-- Navbar -->
+
+
+
+
         <div class="home">
             <br>
             <div class="welcome">
@@ -208,7 +210,9 @@
     </footer>
 
 
-    <script src="" async defer></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 
 </html>
