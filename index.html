@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mojewa Tswelopele</title>
-    <meta name="description" content="">
+    <meta name="description" content="A Full-Stack Software Developer with a strong focus on backend development. Specializing in SQL
+    development, database management, data analytics, and data engineering, I thrive on creating
+    robust, data-driven solutions that power efficient and scalable systems.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
@@ -13,188 +15,159 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
-</head>
-
-<body>
-
     <style>
         * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             background-image: url("/images/bg.jpg");
             background-size: cover;
+            background-position: center;
             color: white;
+            font-family: 'Roboto', sans-serif;
         }
 
         .main {
             background-color: rgba(255, 255, 255, 0.4);
         }
 
-        /* styling home page */
         .home {
-            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
 
         .welcome {
-            margin: auto;
             padding: 2em;
             width: 80%;
-            text-align: center;
             background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
         }
 
         .welcome h1 {
-            font-size: 30px;
+            font-size: 55px;
+            margin-bottom: 0.5em;
         }
 
         .welcome p {
+            font-size: 20px;
+            margin-bottom: 1.5em;
+        }
+
+        .btn-info {
             font-size: 18px;
+            padding: 10px 25px;
         }
 
-        /* .home-site {
-            width: 80%;
-            text-align: center;
-            margin: auto;
-            position: relative;
-            padding: 35px;
-        }
-        button {
-            margin: 1em;
-            border-radius: 15px;
-            border: none;
-            font-size: 15px;
-            width: 45%;
-            height: 35px;
-            cursor: pointer;
-        } */
-
-        .site2 button {
-            background-color: white;
-            background-image: linear-gradient(to right, orange, red);
+        nav {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
         }
 
-        /* end of home styling */
-
-        /* style footer */
+        nav .navbar-brand {
+            font-weight: 700;
+            font-size: 24px;
+        }
 
         footer {
-            width: 95%;
-            height: 100px;
-            margin: auto;
-            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
             color: white;
-            background-color: darkslategrey;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
         }
 
-        .footer {
-            margin: 120px;
+        footer a {
+            color: #fff;
+            text-decoration: none;
         }
 
-        /* end of footer styling */
+        footer a:hover {
+            color: #17a2b8;
+        }
+
+        /* Responsiveness */
+        @media only screen and (max-width: 768px) {
+            .welcome h1 {
+                font-size: 35px;
+            }
+
+            .welcome p {
+                font-size: 16px;
+            }
+        }
     </style>
+</head>
 
+<body>
 
     <main>
-
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <!-- Container wrapper -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
-                <!-- Navbar brand -->
-                <a class="navbar-brand md-2" href="index.html">
-                    Tswelopele Mojewa
-                </a>
-
-                <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html">Mojewa Tswelopele</a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                        <li class="nav-item">
+                            <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
+                                role="button">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa" role="button">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
                     </ul>
-                    <!-- Left links -->
-
-                    <div class="d-flex align-items-center">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
-                                    role="button"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa"
-                                    role="button"><i class="fab fa-github"></i></a>
-                            </li>
-                        </ul>
-
-                    </div>
                 </div>
-                <!-- Collapsible wrapper -->
             </div>
-            <!-- Container wrapper -->
         </nav>
-        <!-- Navbar -->
 
-        <br>
-        <br>
-        <br>
-        <br>
-
+        <!-- Welcome Section -->
         <div class="home">
-            <br>
             <div class="welcome">
-                <h1 style="font-size: 55px;">Hello, I am Tswelopele Mojewa</h1>
-                <br>
-                <br>
-                <p>I'm a Full-Stack Software Developer and an Aspiring Data Scientist</p>
-                <br>
-
-                <div class="">
-                    <a class="btn btn-info btn-block" href="projects.html">View My work</a>
-                </div>
-
+                <h1>Hello, I'm Mojewa Tswelopele</h1>
+                <p>
+                    <b>
+                        A Full-Stack Software Developer with a strong focus on backend development. Specializing in SQL
+                        development, database management, data analytics, and data engineering, I thrive on creating
+                        robust, data-driven solutions that power efficient and scalable systems.
+                    </b>
+                </p>
+                <a class="btn btn-info" href="projects.html">View My Work</a>
             </div>
-
         </div>
     </main>
-    <br>
-    <br>
-    <br>
 
-    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.8);">
-
-        <!-- Copyright -->
-        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.8);">
-            © 2023 Copyright:
-            <a class="text-light" href="index.html">Mojewa Tswelopele</a>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Mojewa Tswelopele. All rights reserved.</p>
         </div>
-        <!-- Copyright -->
     </footer>
 
-
-    <!-- MDB -->
+    <!-- MDB Scripts -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 
 </html>

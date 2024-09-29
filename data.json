@@ -6,23 +6,23 @@
     "skills": {
         "technical": [
             {
-                "skill": "JavaScript",
-                "skill2": "ReactJS"
+                "skill": "JavaScript | Python | C & C++",
+                "skill2": "ReactJS | AlpineJS"
             },
             {
-                "skill": "HTML5",
-                "skill2": "Django"
+                "skill": "HTML5 | CSS | Bootstrap",
+                "skill2": "Django | Flask"
             },
             {
-                "skill": "CSS",
-                "skill2": "GIT & Github"
+                "skill": "Data Modelling | Data Profiling",
+                "skill2": "ETL Process | Data Pipelines | Data Cleaning"
             },
             {
-                "skill": "Python",
-                "skill2": "C & C++"
+                "skill": "Power BI | SSRS Dashboards",
+                "skill2": "Automation | Selenium | Web Scraping"
             },
             {
-                "skill": "AlpineJS",
+                "skill": "Stored Produres | Database Design",
                 "skill2": "Linux & Windows OS"
             },
             {
@@ -30,16 +30,16 @@
                 "skill2": "Unit Testing"
             },
             {
-                "skill": "Data analysis",
-                "skill2": "Bootstrap"
+                "skill": "Big Data | Spak Apache",
+                "skill2": "Data analysis | Data Engineering"
             },
             {
-                "skill": "API",
-                "skill2": "SQL"
+                "skill": "API Development | ExpressJS | NodeJS",
+                "skill2": "SQL | T-SQL | MS SQL | PostgreSQL"
             },
             {
                 "skill": "Postman",
-                "skill2": "Rest Client"
+                "skill2": "GIT & Github"
             }
         ],
         "soft": [
