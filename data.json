@@ -3,65 +3,118 @@
         "fullName": "Mojewa Tswelopele",
         "photo": "/images/tswelopele1.JPG"
     },
+    "experience": [
+        {
+            "title": "Junior Software Implementor",
+            "company": "TransLution Software",
+            "description": "As a Junior Software Implementer at Translution Software since March 2024, I have developed T-SQL stored procedures for efficient data manipulation and created SSRS dashboards to enhance data visualization, providing valuable insights for clients. My role involves delivering exceptional customer support, ensuring timely issue resolution, and maintaining implemented projects to align with client requirements. Notably, I successfully implemented Warehouse Management Software that significantly improved inventory tracking and management.",
+            "description2": "Previously, as a Graduate Intern from September 2023 to February 2024, I gained proficiency in MSSQL for database management and conducted business analysis to identify opportunities for system improvements. I also enhanced the company email system to facilitate simultaneous emailing to multiple accounts. Additionally, my Capstone Project involved implementing Warehouse Management Software in the office storeroom to track and manage inventory, mirroring client implementations.",
+            "technologies": "MSSQL, SSMS, T-SQL, SQL, Stored Procedures, Views, SSRS Dashboards, Power BI, SYSPRO [ERP], Warehouse Inventory Management, Bartender Label Printing and a bit of Visual Basics",
+            "Duration": "September 2023 - Present"
+        },
+        {
+            "title": "Work Readiness Program",
+            "company": "University Of Johannesburg & Accenture Collab",
+            "description": "I have gained proficiency in full-stack web development, equipping myself with the skills necessary to build dynamic and responsive web applications. Through my commitment to continuous learning, I acquired Agile rapid skills acquisition techniques, enabling me to adapt quickly to new technologies and methodologies.",
+            "description2": "I successfully completed a 4IR Technologies Bootcamp, where I focused on cutting-edge topics such as Machine Learning and Blockchain, enhancing my understanding of these transformative technologies. Additionally, my studies in Engineering Business Systems have provided me with valuable insights into improving system design and implementation, ensuring that solutions are both efficient and effective.",
+            "technologies": "JavaScript, NodeJS, ExpressJS, ReactJS, AlpineJS, Html, CSS, Bootstrap, Python, Machine learning algorithms, Agile Methodologies, Git and Github",
+            "Duration": "March 2023 - October 2023"
+        },
+        {
+            "title": "Mathematics Assistant",
+            "company": "Mmametlhake Secondary School",
+            "description": "In my role as a Mathematics Assistant at Mmametlhake Secondary School, I provided targeted support to high school students in mathematics, enhancing their understanding and performance in the subject. I worked closely with students to clarify complex concepts, develop problem-solving skills, and boost their confidence in mathematical abilities. Through personalized guidance and collaborative learning techniques, I fostered an engaging learning environment that encouraged academic growth and improved overall performance in mathematics.",
+            "Duration": " January 2021 - February 2023",
+            "technologies": "No relevant Technologies."
+        }
+    ],
     "skills": {
         "technical": [
             {
-                "skill": "JavaScript | Python | C & C++",
-                "skill2": "ReactJS | AlpineJS"
+                "skill": "JavaScript | Python | C & C++"
             },
             {
-                "skill": "HTML5 | CSS | Bootstrap",
-                "skill2": "Django | Flask"
+                "skill": "SQL | T-SQL | MS SQL | PostgreSQL"
             },
             {
-                "skill": "Data Modelling | Data Profiling",
-                "skill2": "ETL Process | Data Pipelines | Data Cleaning"
+                "skill": "API Development | ExpressJS | NodeJS"
             },
             {
-                "skill": "Power BI | SSRS Dashboards",
-                "skill2": "Automation | Selenium | Web Scraping"
+                "skill": "ReactJS | AlpineJS"
             },
             {
-                "skill": "Stored Produres | Database Design",
-                "skill2": "Linux & Windows OS"
+                "skill": "HTML5 | CSS | Bootstrap"
             },
             {
-                "skill": "Machine learning",
-                "skill2": "Unit Testing"
+                "skill": "Django | Flask"
             },
             {
-                "skill": "Big Data | Spak Apache",
-                "skill2": "Data analysis | Data Engineering"
+                "skill": "Big Data | Spak Apache"
             },
             {
-                "skill": "API Development | ExpressJS | NodeJS",
-                "skill2": "SQL | T-SQL | MS SQL | PostgreSQL"
+                "skill": "Data analysis | Data Engineering"
             },
             {
-                "skill": "Postman",
-                "skill2": "GIT & Github"
+                "skill": "Data Modelling | Data Profiling"
+            },
+            {
+                "skill": "ETL Process | Data Pipelines | Data Cleaning"
+            },
+            {
+                "skill": "Data Visualization | Power BI | SSRS Dashboards"
+            },
+            {
+                "skill": "Automation | Selenium | Web Scraping"
+            },
+            {
+                "skill": "Stored Produres | Database Design"
+            },
+            {
+                "skill": "Docker"
+            },
+            {
+                "skill": "Machine learning"
+            },
+            {
+                "skill": "Unit Testing"
+            },
+            {
+                "skill": "Postman"
+            },
+            {
+                "skill": "GIT & Github"
             }
         ],
         "soft": [
             {
-                "skill1": "Time Management",
-                "skill2": "Problem Solving"
+                "skill": "Time Management"
             },
             {
-                "skill1": "Agile Methodologies",
-                "skill2": "Analytical thinking"
+                "skill": "Problem Solving"
             },
             {
-                "skill1": "Excellent Commnication",
-                "skill2": "collaborative and interpersonal skills"
+                "skill": "Agile Methodologies"
             },
             {
-                "skill1": "Willing to learn",
-                "skill2": "Self-motivated"
+                "skill": "Analytical thinking"
             },
             {
-                "skill1": "team Work",
-                "skill2": "Presentation"
+                "skill": "Excellent Commnication"
+            },
+            {
+                "skill": "collaborative and interpersonal skills"
+            },
+            {
+                "skill": "Willing to learn"
+            },
+            {
+                "skill": "Self-motivated"
+            },
+            {
+                "skill": "team Work"
+            },
+            {
+                "skill": "Presentation"
             }
         ]
     },
@@ -71,59 +124,8 @@
         "LinkedIn": "https://www.linkedin.com/in/tswelopele-mojewa/",
         "github": "https://github.com/tswelopelemojewa/",
         "address": "254 Fox Street Johannesburg",
-        "photo": "/images/me.jpeg"
+        "photo": "/images/tswelopele3.JPG"
     },
-    "city": {
-        "name": "SILICON VALLEY",
-        "photo": "/images/silicon_valley.jpg",
-        "description": "Silicon Valley is known as the cratle of innivation, it is where most well known top know Tech companies Originated. Big names like Google, Facebook, Amazon, Apple, Netflix and more...all reside at Silicon Valley. Silicon Valley is a region in Northern California that serves as a global center for high technology and innovation. It is located in the southern part of the San Francisco Bay Area"
-    },
-    "foreignLanguage": {
-        "language": "Japanese",
-        "phrases": [
-            {
-                "englishPhrase": "I wanna watch Anime in Sub mode, with no subtitles",
-                "foreignLanguage": "データサイエンスは未来です..."
-            },
-            {
-                "englishPhrase": "Web development, all day Everyday",
-                "foreignLanguage": "Web 開発、一日中毎日"
-            },
-            {
-                "englishPhrase": "Data Science is the future",
-                "foreignLanguage": "データサイエンスは未来です"
-            }
-        ]
-    },
-    "course": "BENG-TECH ELECTRICAL ENGINEERING",
-    "institution": "UNIVERSITY OF JOHANNESBURG",
-    "favouriteSubjects": [
-        {
-            "name": "Algorithms",
-            "badge": "best",
-            "description": "The use of computer programming Language that makes use of the "
-        },
-        {
-            "name": "Mathematics",
-            "description": "Introduction and application of Engineering mathematics and calculus"
-        },
-        {
-            "name": "Electronics",
-            "description": "Building and developing electronic circuit, working with transistors and other eletronic components, with a Function generator to generate signals and displaying results of and Oscilloscope."
-        },
-        {
-            "name": "Mechatronics",
-            "description": "Working with Arduino Uno and PLC along with sensors to automate Switches and relays"
-        },
-        {
-            "name": "Waves and Signals",
-            "description": "Working with electronic devices to study different signal like FM, AM and also workinng with PWM"
-        },
-        {
-            "name": "Sensors and Devices",
-            "description": "Development of Electronic circuits that uses devices that senses"
-        }
-    ],
     "projects": [
         {
             "clip": "/images/pizza-cart-with-api.gif",

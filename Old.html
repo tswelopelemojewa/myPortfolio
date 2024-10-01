@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mojewa Tswelopele</title>
+    <meta name="description" content="A Full-Stack Software Developer with a strong focus on backend development. Specializing in SQL
+    development, database management, data analytics, and data engineering, I thrive on creating
+    robust, data-driven solutions that power efficient and scalable systems.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("/images/bg.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .main {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .home {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .welcome {
+            padding: 2em;
+            width: 80%;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+        }
+
+        .welcome h1 {
+            font-size: 55px;
+            margin-bottom: 0.5em;
+        }
+
+        .welcome p {
+            font-size: 20px;
+            margin-bottom: 1.5em;
+        }
+
+        .btn-info {
+            font-size: 18px;
+            padding: 10px 25px;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav .navbar-brand {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #17a2b8;
+        }
+
+        /* Responsiveness */
+        @media only screen and (max-width: 768px) {
+            .welcome h1 {
+                font-size: 35px;
+            }
+
+            .welcome p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Mojewa Tswelopele</a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                        <li class="nav-item">
+                            <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
+                                role="button">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa" role="button">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Welcome Section -->
+        <div class="home">
+            <div class="welcome">
+                <h1>Hello, I'm Mojewa Tswelopele</h1>
+                <p>
+                    <b>
+                        A Full-Stack Software Developer with a strong focus on backend development. Specializing in SQL
+                        development, database management, data analytics, and data engineering, I thrive on creating
+                        robust, data-driven solutions that power efficient and scalable systems.
+                    </b>
+                </p>
+                <a class="btn btn-info" href="projects.html">View My Work</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Mojewa Tswelopele. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- MDB Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+</body>
+
+</html>

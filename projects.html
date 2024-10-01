@@ -4,118 +4,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My projects</title>
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <title>Projects - Mojewa Tswelopele</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        header a:hover {
+            color: #f0a500;
+        }
+
+        #projects {
+            background-color: #e9ecef;
+            padding: 50px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 80px;
+        }
+
+        #projects h3 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .project-item {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 30px);
+            max-width: 450px;
+            transition: transform 0.3s;
+        }
+
+        .project-item:hover {
+            transform: scale(1.05);
+        }
+
+        .project-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .project-item h5 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .project-item span {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #f0a500;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #e58e26;
+        }
+    </style>
 </head>
 
-<body style="background-image: url(/images/bg.jpg); background-size: cover; background-attachment: fixed;">
-    <main>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Container wrapper -->
-            <div class="container">
-                <!-- Navbar brand -->
-                <a class="navbar-brand md-2" href="index.html">
-                    Tswelopele Mojewa
-                </a>
-
-                <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    </ul>
-                    <!-- Left links -->
-
-                    <div class="d-flex align-items-center">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-light px-3" href="https://www.linkedin.com/in/tswelopele-mojewa/"
-                                    role="button"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-light px-3" href="https://github.com/tswelopelemojewa"
-                                    role="button"><i class="fab fa-github"></i></a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-                <!-- Collapsible wrapper -->
-            </div>
-            <!-- Container wrapper -->
+<body>
+    <header>
+        <h1>Mojewa Tswelopele</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <!-- Navbar -->
+    </header>
 
-        <br>
-        <div class="container text-center">
-
-            <h3 style="color: white;">Recent projects</h3>
-            <br>
-            <div class="row d-flex justify-content-center">
-
-
-                {{#each data.projects}}
-                    <div class="card mb-3 col-md-10">
-                        <img src="{{clip}}" class="card-img-top" alt="Wild Landscape" />
-                        <div class="card-body">
-                            <h5 class="card-title">{{title}}</h5><span class="small">Updated: {{time}}</span>
-                            <p class="card-text">{{description}}</p>
-
-                            <span>Technologies Used: </span><span class="card-text">{{technologies}}</span>
-
-                            <p class="card-text">
-
-                                <a class="btn btn-info" href="{{siteLink}}">Visit the site</a>
-                            </p>
-                        </div>
-                    </div>
-                {{/each}}
+    <section id="projects">
+        <h3>Recent Projects</h3>
+        <div class="project-list">
+            {{#each data.projects}}
+            <div class="project-item">
+                <img src="{{clip}}" alt="{{title}}" />
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <span class="small"><i>Updated: {{time}}</i></span>
+                    <p class="card-text">{{description}}</p>
+                    <span><b>Technologies Used:</b></span><span class="card-text">{{technologies}}</span>
+                    <p class="card-text">
+                        <a class="btn btn-info" href="{{siteLink}}">Visit the site</a>
+                    </p>
+                </div>
             </div>
-
+            {{/each}}
         </div>
+    </section>
 
-        <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.8);">
-
-            <!-- Copyright -->
-            <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.8);">
-                © 2023 Copyright:
-                <a class="text-light" href="index.html">Mojewa Tswelopele</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-
-    </main>
-
-        <!-- MDB -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/tswelopelemojewa" target="_blank">LinkedIn</a> or <a
+                href="https://github.com/tswelopelemojewa" target="_blank">GitHub</a></p>
+    </footer>
 
 </body>
 

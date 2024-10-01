@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mojewa Tswelopele's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="{{user.photo}}" alt="{{user.fullName}}" id="profile-photo">
+        <h1>{{user.fullName}}</h1>
+    </header>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-set">
+            <h3>Technical Skills</h3>
+            <ul>
+                {{#each skills.technical}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="skill-set">
+            <h3>Soft Skills</h3>
+            <ul>
+                {{#each skills.soft}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: {{contact.email}}</p>
+        <p>Phone: {{contact.phone.join(', ')}}</p>
+        <p>LinkedIn: <a href="{{contact.LinkedIn}}">{{contact.LinkedIn}}</a></p>
+        <p>GitHub: <a href="{{contact.github}}">{{contact.github}}</a></p>
+        <p>Address: {{contact.address}}</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

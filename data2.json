@@ -1,0 +1,372 @@
+{
+    "user": {
+        "fullName": "Mojewa Tswelopele",
+        "photo": "/images/tswelopele1.JPG"
+    },
+    "skills": {
+        "technical": [
+            [
+                "JavaScript",
+                "Python",
+                "C & C++"
+            ],
+            [
+                "SQL",
+                "T-SQL",
+                "MS SQL",
+                "PostgreSQL"
+            ],
+            [
+                "API Development",
+                "ExpressJS",
+                "NodeJS"
+            ],
+            [
+                "ReactJS",
+                "AlpineJS"
+            ],
+            [
+                "HTML5",
+                "CSS",
+                "Bootstrap"
+            ],
+            [
+                "Django",
+                "Flask"
+            ],
+            [
+                "Big Data",
+                "Apache Spark"
+            ],
+            [
+                "Data Analysis",
+                "Data Engineering"
+            ],
+            [
+                "Data Modelling",
+                "Data Profiling"
+            ],
+            [
+                "ETL Process",
+                "Data Pipelines",
+                "Data Cleaning"
+            ],
+            [
+                "Data Visualization",
+                "Power BI",
+                "SSRS Dashboards"
+            ],
+            [
+                "Automation",
+                "Selenium",
+                "Web Scraping"
+            ],
+            [
+                "Stored Procedures",
+                "Database Design"
+            ],
+            [
+                "Docker"
+            ],
+            [
+                "Machine Learning"
+            ],
+            [
+                "Unit Testing"
+            ],
+            [
+                "Postman",
+                "GIT & Github"
+            ]
+        ],
+        "soft": [
+            [
+                "Time Management",
+                "Problem Solving"
+            ],
+            [
+                "Agile Methodologies",
+                "Analytical Thinking"
+            ],
+            [
+                "Excellent Communication",
+                "Collaborative and Interpersonal Skills"
+            ],
+            [
+                "Willing to Learn",
+                "Self-Motivated"
+            ],
+            [
+                "Teamwork",
+                "Presentation"
+            ]
+        ]
+    },
+    "experience": [
+        {
+            "jobTitle": "Full-Stack Developer",
+            "company": "Tech Solutions Inc.",
+            "duration": "January 2022 - Present",
+            "responsibilities": [
+                "Developed and maintained web applications using React and Node.js.",
+                "Collaborated with designers to implement user-friendly interfaces.",
+                "Led a team of junior developers on various projects.",
+                "Optimized application performance, resulting in a 30% speed improvement."
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "PostgreSQL",
+                "Git"
+            ],
+            "impact": "Contributed to a project that increased user engagement by 25%."
+        },
+        {
+            "jobTitle": "Software Engineer Intern",
+            "company": "Innovative Tech Co.",
+            "duration": "June 2021 - December 2021",
+            "responsibilities": [
+                "Assisted in the development of a mobile application using Flutter.",
+                "Participated in code reviews and contributed to team discussions."
+            ],
+            "technologiesUsed": [
+                "Flutter",
+                "Dart",
+                "Firebase"
+            ],
+            "impact": "Helped reduce bugs by 15% through effective testing."
+        }
+    ],
+    "contact": {
+        "email": "tswelopelemojewa@gmail.com",
+        "phone": [
+            "0790985214",
+            "0715366387"
+        ],
+        "LinkedIn": "https://www.linkedin.com/in/tswelopele-mojewa/",
+        "github": "https://github.com/tswelopelemojewa/",
+        "address": "254 Fox Street, Johannesburg",
+        "photo": "/images/me.jpeg"
+    },
+    "city": {
+        "name": "Silicon Valley",
+        "photo": "/images/silicon_valley.jpg",
+        "description": "Silicon Valley is known as the cradle of innovation, where most well-known tech companies originated, including Google, Facebook, Amazon, Apple, and Netflix. It serves as a global center for high technology and innovation."
+    },
+    "foreignLanguage": {
+        "language": "Japanese",
+        "phrases": [
+            {
+                "englishPhrase": "I wanna watch Anime in Sub mode, with no subtitles",
+                "foreignLanguage": "データサイエンスは未来です..."
+            },
+            {
+                "englishPhrase": "Web development, all day every day",
+                "foreignLanguage": "Web 開発、一日中毎日"
+            },
+            {
+                "englishPhrase": "Data Science is the future",
+                "foreignLanguage": "データサイエンスは未来です"
+            }
+        ]
+    },
+    "education": {
+        "course": "BENG-TECH ELECTRICAL ENGINEERING",
+        "institution": "UNIVERSITY OF JOHANNESBURG",
+        "favouriteSubjects": [
+            {
+                "name": "Algorithms",
+                "badge": "best",
+                "description": "The use of computer programming language."
+            },
+            {
+                "name": "Mathematics",
+                "description": "Introduction and application of engineering mathematics and calculus."
+            },
+            {
+                "name": "Electronics",
+                "description": "Building and developing electronic circuits with transistors and other electronic components."
+            },
+            {
+                "name": "Mechatronics",
+                "description": "Working with Arduino Uno and PLC to automate switches and relays."
+            },
+            {
+                "name": "Waves and Signals",
+                "description": "Working with electronic devices to study different signals like FM and AM."
+            },
+            {
+                "name": "Sensors and Devices",
+                "description": "Development of electronic circuits using sensors."
+            }
+        ]
+    },
+    "projects": [
+        {
+            "clip": "/images/pizza-cart-with-api.gif",
+            "title": "Pizza Cart Using API",
+            "description": "Built a pizza application using an API where users log in and customize their orders.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AlpineJS",
+                "Bootstrap",
+                "Postman",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/pizza-cart-with-api/",
+            "time": "14 July 2023"
+        },
+        {
+            "clip": "/images/bootcamp-widgets.gif",
+            "title": "Widgets for Bootcamp Functions",
+            "description": "Developed widgets for bootcamp functions using AlpineJS.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AlpineJS",
+                "Bootstrap",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/alpinejs-bootcamp-widgets/",
+            "time": "30 June 2023"
+        },
+        {
+            "clip": "/images/pizza-cart.gif",
+            "title": "Pizza Cart",
+            "description": "Developed a pizza cart for placing and viewing orders.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AlpineJS",
+                "Bootstrap",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/pizza-cart/",
+            "time": "28 June 2023"
+        },
+        {
+            "clip": "/images/alpine-counter.gif",
+            "title": "Counter Using AlpineJS Framework",
+            "description": "Developed a counter that increments and decrements using AlpineJS.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/apline-counter-widgets/",
+            "time": "26 June 2023"
+        },
+        {
+            "clip": "/images/exploring_the_dom.gif",
+            "title": "Introducing JavaScript in the Web Browser",
+            "description": "Manipulated HTML elements and styling using Vanilla JavaScript.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/exploring-js-dom/",
+            "time": "26 June 2023"
+        },
+        {
+            "clip": "/images/responsive-webpages.gif",
+            "title": "Responsive Web Pages with ViteJS & Handlebars",
+            "description": "Created two responsive personal web pages using Bootstrap and Materialize.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Materialize",
+                "Git",
+                "GitHub",
+                "ViteJS",
+                "Handlebars"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/responsive_webpages/",
+            "time": "31 May 2023"
+        },
+        {
+            "clip": "/images/bootcamp-test.gif",
+            "title": "Unit Testing with MochaJS",
+            "description": "Unit tested functions using MochaJS and ChaiJS.",
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "Git",
+                "GitHub",
+                "MochaJS",
+                "ChaiJS"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/bootcamp-test/",
+            "time": "31 May 2023"
+        },
+        {
+            "clip": "/images/color-mixer.gif",
+            "title": "DOM - Color Mixer",
+            "description": "Displayed colors based on CSS RGB color combinations.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/dom-color-mixer/",
+            "time": "15 March 2023"
+        },
+        {
+            "clip": "/images/jscounter.gif",
+            "title": "JavaScript Counter",
+            "description": "Counter project using setInterval to increment the count.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/jsconter/",
+            "time": "15 March 2023"
+        },
+        {
+            "clip": "/images/anime-gallery.gif",
+            "title": "Anime Gallery Counter",
+            "description": "Developed a simple webpage displaying anime characters.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/animegallery/",
+            "time": "15 March 2022"
+        },
+        {
+            "clip": "/images/login-page.gif",
+            "title": "Login Page",
+            "description": "Created a login page while learning HTML, CSS, and JavaScript.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "GitHub"
+            ],
+            "siteLink": "https://tswelopelemojewa.github.io/loginPage/",
+            "time": "22 July 2022"
+        }
+    ]
+}
